@@ -32,6 +32,19 @@ header{
     font-size: 24px;
     gap: 50px;
 }
+.header-image{
+    width: 120px;
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+.header-item{
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 24px;
+    color: #FFF;
+}
 .font-link:hover{
     color: blanchedalmond;
 }
