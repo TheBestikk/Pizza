@@ -28,29 +28,19 @@ header{
 .header-logo-link{
     width: 120px;
 }
-.header-link{
-    font-size: 24px;
-    gap: 50px;
-}
 .header-image{
     width: 120px;
 }
 .header-list{
+    margin-top: 20px;
     display: flex;
     gap: 50px;
 }
 .header-item{
     justify-content: flex-end;
     flex-direction: row;
-    font-size: 24px;
-    color: #FFF;
-}
-.font-link:hover{
-    color: blanchedalmond;
-}
-.header-item{
-    display: flex;
     gap: 50px;
+    font-size: 24px;
     color: #FFF;
     font-weight: 700;
 }
@@ -85,14 +75,89 @@ header{
 }
 .dough-image{
     width: 550px;
-    padding: 50px;
-    flex-wrap: wrap;
 }
 .dough-title{
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(113, 27, 12);
 }
 .dough-list{
     list-style: disc;
     margin-left: 50px;
+}
+/* стилі для третьої секції */
+.filling{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.filling-container{
+    display: flex;
+}
+.filling-wrap{
+    align-items: end;
+    margin-left: 50px;
+}
+.filling-image{
+    width: 550px;
+}
+.filling-title{
+    font-size: 35px;
+    color: rgb(113, 27, 12);
+}
+.filling-list{
+    list-style: disc;
+    margin-left: 50px;
+}
+/* стилі до четвертої секції */
+.bonus{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 167, 123);
+}
+.bonus-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bonus-image{
+    width: 550px;
+
+}
+.bonus-title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(113, 27, 12);
+}
+.bonus-text{
+    color: rgb(113, 27, 12);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.bonus-list{
+    margin-left: 50px;
+}
+.bonus-item{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* стилі до підвалу сайта */
+.footer{
+    background-color: rgb(221, 103, 82);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-text{
+    color: #FFF;
+}
+.footer-image{
+    margin-top: 15px;
+    max-height: 50px;
+    width: 50px;
 }
