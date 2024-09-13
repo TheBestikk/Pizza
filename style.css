@@ -108,33 +108,33 @@ header{
     margin-left: 50px;
 }
 /* стилі до четвертої секції */
-.bonus{
+.fact{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgb(255, 167, 123);
 }
-.bonus-container{
+.fact-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
-.bonus-image{
+.fact-image{
     width: 750px;
-
 }
-.bonus-title{
+.fact-title{
     text-align: center;
     font-size: 40px;
     color: rgb(113, 27, 12);
 }
-.bonus-text{
+.fact-text{
+    margin-left: 25px;
     color: rgb(113, 27, 12);
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 10px;
 }
-.bonus-item{
+.fact-item{
+    margin-left: 25px;
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -157,6 +157,8 @@ header{
     width: 550px;
     max-height: 500px;
     margin-right: 25px;
+    border-radius: 24px;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .contact-title{
     justify-content: center;
@@ -184,7 +186,17 @@ header{
 }
 .form-item{
     margin-bottom: 15px;
-    max-width: 170px;
+    max-width: 220px;
+    padding: 10px;
+    border-radius: 35px;
+}
+.form-textarea{
+    padding: 10px;
+    border-radius: 35px;
+    max-width: 300px;
+    min-width: 220px;
+    max-height: 200px;
+    min-height: 100px;
 }
 .form-sumbit{
     margin-bottom: 15px;
