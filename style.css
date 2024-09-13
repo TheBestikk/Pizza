@@ -134,12 +134,79 @@ header{
     font-weight: bold;
     padding-bottom: 10px;
 }
-.bonus-list{
+.bonus-item{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* стилі до п'ятої секції */
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-container{
+    display: flex;
     margin-left: 50px;
 }
-.bonus-item{
-    margin-right: 50px;
-    font-size: 20px;
+.contact-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-image{
+    width: 550px;
+    max-height: 500px;
+    margin-right: 25px;
+}
+.contact-title{
+    justify-content: center;
+    color: rgb(113, 27, 12);
+    font-size: 40px;
+}
+.contact-subtitle{
+    color: rgb(113, 27, 12);
+    font-size: 35px;
+}
+.contact-item{
+    list-style: disc;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(113, 27, 12);
+    margin-left: 35px;
+}
+.contact-text{
+    color: rgb(113, 27, 12);
+    font-size: 28px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-item{
+    margin-bottom: 15px;
+    max-width: 170px;
+}
+.form-sumbit{
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 120px;
+}
+.form-sumbit:hover{
+    background-image: linear-gradient(to bottom, rgb(155, 255, 139), rgb(199, 255, 121));
+    color: #000000;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+}
+.form-reset{
+    padding: 8px;
+    border-radius: 8px;
+    width: 120px;
+}
+.form-reset:hover{
+    background-image: linear-gradient(to bottom, rgb(255, 84, 84), rgb(255, 109, 109));
+    color: #000000;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     font-weight: bold;
 }
 /* стилі до підвалу сайта */
