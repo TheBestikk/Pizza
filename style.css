@@ -15,7 +15,9 @@ a{
     width: 1200px;
     margin: 0px auto;
 }
+
 /* стилі для шапки сайту */
+
 header{
     background-color: rgb(221, 103, 82);
     padding-top: 10px;
@@ -41,10 +43,17 @@ header{
     flex-direction: row;
     gap: 50px;
     font-size: 24px;
-    color: #FFF;
     font-weight: 700;
 }
+.header-link{
+    color: #fff;
+}
+.header-link:hover{
+    border-bottom: 2px solid #FFF;
+}
+
 /* стилі для головної секції */
+
 .hero{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -62,7 +71,9 @@ header{
     font-size: 40px;
     color: rgb(113, 27, 12);;
 }
+
 /* стилі для другої секції */
+
 .dough{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -84,7 +95,9 @@ header{
     list-style: disc;
     margin-left: 50px;
 }
+
 /* стилі для третьої секції */
+
 .filling{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -107,7 +120,9 @@ header{
     list-style: disc;
     margin-left: 50px;
 }
+
 /* стилі до четвертої секції */
+
 .fact{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -126,12 +141,12 @@ header{
     color: rgb(113, 27, 12);
 }
 .fact-text{
-    margin-left: 25px;
     color: rgb(113, 27, 12);
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 10px;
+    margin-left: 25px;
 }
 .fact-item{
     margin-left: 25px;
@@ -139,7 +154,9 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
+
 /* стилі до п'ятої секції */
+
 .contact{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -180,6 +197,18 @@ header{
     color: rgb(113, 27, 12);
     font-size: 28px;
 }
+.contact-order-title{
+    color: rgb(113, 27, 12);
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+.contact-order{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 125px;
+}
 .contact-form{
     display: flex;
     flex-direction: column;
@@ -203,6 +232,8 @@ header{
     padding: 8px;
     border-radius: 8px;
     width: 120px;
+    border: none;
+    background-color: #FFF;
 }
 .form-sumbit:hover{
     background-image: linear-gradient(to bottom, rgb(155, 255, 139), rgb(199, 255, 121));
@@ -214,14 +245,18 @@ header{
     padding: 8px;
     border-radius: 8px;
     width: 120px;
+    border: none;
+    background-color: #FFF;
 }
 .form-reset:hover{
-    background-image: linear-gradient(to bottom, rgb(255, 84, 84), rgb(255, 109, 109));
+    background-image: linear-gradient(to bottom, rgb(255, 84, 84), rgb(251, 121, 121));
     color: #000000;
     box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     font-weight: bold;
 }
+
 /* стилі до підвалу сайта */
+
 .footer{
     background-color: rgb(221, 103, 82);
     padding-top: 10px;
