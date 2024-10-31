@@ -18,7 +18,7 @@ a{
 
 /* стилі для шапки сайту */
 
-header{
+.header{
     background-color: rgb(221, 103, 82);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -169,6 +169,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 .contact-image{
     width: 550px;
