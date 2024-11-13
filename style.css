@@ -34,8 +34,8 @@ a{
     width: 120px;
 }
 .header-list{
-    margin-top: 20px;
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 .header-item{
@@ -65,7 +65,6 @@ a{
 }
 .hero-image{
     width: 550px;
-    padding: 50px;
 }
 .hero-title{
     font-size: 40px;
@@ -104,10 +103,7 @@ a{
 }
 .filling-container{
     display: flex;
-}
-.filling-wrap{
-    align-items: end;
-    margin-left: 50px;
+    gap: 50px;
 }
 .filling-image{
     width: 550px;
@@ -131,9 +127,12 @@ a{
 .fact-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .fact-image{
-    width: 750px;
+    width: 600px;
+    height: 600px;
 }
 .fact-title{
     text-align: center;
@@ -163,7 +162,8 @@ a{
 }
 .contact-container{
     display: flex;
-    margin-left: 50px;
+    justify-content: center;
+    gap: 75px;
 }
 .contact-wrap{
     display: flex;
