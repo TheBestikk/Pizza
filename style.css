@@ -1,12 +1,11 @@
 body{
     margin: 0px;
+    padding: 0px;
     background-color: blanchedalmond;
     font-size: 25px;
 }
 ul{
     list-style: none;
-    padding: 0px;
-    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -103,6 +102,7 @@ a{
 }
 .filling-container{
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 .filling-image{
@@ -162,8 +162,9 @@ a{
 }
 .contact-container{
     display: flex;
-    justify-content: center;
-    gap: 75px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .contact-wrap{
     display: flex;
@@ -173,19 +174,19 @@ a{
 }
 .contact-image{
     width: 550px;
-    max-height: 500px;
-    margin-right: 25px;
+    height: 500px;
+    margin-right: 75px;
     border-radius: 24px;
     box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .contact-title{
-    justify-content: center;
     color: rgb(113, 27, 12);
     font-size: 40px;
 }
 .contact-subtitle{
     color: rgb(113, 27, 12);
     font-size: 35px;
+    text-align: left;
 }
 .contact-item{
     list-style: disc;
@@ -202,13 +203,12 @@ a{
     color: rgb(113, 27, 12);
     font-size: 40px;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 150px;
+    text-align: center;
 }
 .contact-order{
     display: flex;
     justify-content: flex-end;
-    margin-right: 125px;
+    
 }
 .contact-form{
     display: flex;
@@ -216,7 +216,7 @@ a{
 }
 .form-item{
     margin-bottom: 15px;
-    max-width: 220px;
+    min-width: 250px;
     padding: 10px;
     border-radius: 35px;
 }
